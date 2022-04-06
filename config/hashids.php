@@ -39,13 +39,13 @@ return [
 
         'main' => [
             'salt' => env('HASHID_SALT', 'your-salt-string'),
-            'length' => env('HASHID_LEN', 8),
+            'length' => env('HASHID_LENGTH', 5),
             // 'alphabet' => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
         ],
 
         'alternative' => [
             'salt' => env('HASHID_ALT_SALT', 'your-salt-string'),
-            'length' => env('HASHID_ALT_LEN', 8),
+            'length' => env('HASHID_ALT_LENGTH', 5),
             // 'alphabet' => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
         ],
 
